@@ -1,6 +1,6 @@
 
-2020-04-22 18:30:05.690 7000-7131/com.example.okhttptest D/INA: [__createAndUpdateConnection] Port to be used for connection : (443) with domainName (sicmobi2.sicredi.com.br)
-2020-04-22 18:30:05.694 7000-7149/com.example.okhttptest W/System.err: java.net.ConnectException: failed to connect to sicmobi2.sicredi.com.br/23.216.176.14 (port 443) from /192.168.0.22 (port 45676): connect failed: EINPROGRESS (Operation now in progress)
+2020-04-22 18:30:05.690 7000-7131/com.example.okhttptest D/INA: [__createAndUpdateConnection] Port to be used for connection : (443) with domainName (api.twitter.com)
+2020-04-22 18:30:05.694 7000-7149/com.example.okhttptest W/System.err: java.net.ConnectException: failed to connect to api.twitter.com/23.216.176.14 (port 443) from /192.168.0.22 (port 45676): connect failed: EINPROGRESS (Operation now in progress)
 2020-04-22 18:30:05.694 7000-7149/com.example.okhttptest W/System.err:     at libcore.io.IoBridge.connect(IoBridge.java:143)
 2020-04-22 18:30:05.694 7000-7149/com.example.okhttptest W/System.err:     at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
 2020-04-22 18:30:05.694 7000-7149/com.example.okhttptest W/System.err:     at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
