@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("RESPONSE", "CLIQUED");
+                Log.d("ACTION", "Event click");
                 new Thread(r).start();
             }
         });
