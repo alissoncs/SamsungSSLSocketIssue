@@ -31,7 +31,7 @@ public class NativeSslCode {
 
     public static SSLSocket createSocket(String host, int port) throws IOException {
         SSLSocket socket = (SSLSocket) SSLSocketFactory.getDefault().createSocket(host, port);
-
+//        socket.set
         return socket;
     }
 

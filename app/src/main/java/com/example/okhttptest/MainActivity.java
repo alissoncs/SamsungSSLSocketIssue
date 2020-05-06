@@ -21,6 +21,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView tvResponse;
@@ -44,7 +46,12 @@ public class MainActivity extends AppCompatActivity {
         final Handler handler = new Handler();
         final Runnable r = new Runnable() {
             public void run() {
-                NativeSslCode.createRequest();
+//                NativeSslCode.createRequest();
+                try {
+                    HttpConnectionCode.httpConnection();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         };
 
